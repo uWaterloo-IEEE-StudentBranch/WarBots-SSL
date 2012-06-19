@@ -1,0 +1,8 @@
+CodingConvention
+================
+
+Namespacing
+-----------
+
+Documentation
+-------------
