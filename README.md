@@ -11,12 +11,13 @@ Projects
 --------
 + RCSSL
     > RoboCup Small-Size League
+    
 + RCSSLSIM
-    > RoboCup Small-Size League Simulator and Play-Logger
+    RoboCup Small-Size League Simulator and Play-Logger
 + RCSIM2D
-    > RoboCup 2D Simulation League
+    RoboCup 2D Simulation League
 + RCSIM3D
-    > RoboCup 3D Simulation League
+    RoboCup 3D Simulation League
 
 Developers
 ----------
