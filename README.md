@@ -20,4 +20,4 @@ Projects
 
 Developers
 ----------
-+ Cong Wang (RCSSL, RCSIM2D, RCSIM3D)
++ Cong Wang (RCSSL, RCSSLSIM, RCSIM2D, RCSIM3D)
