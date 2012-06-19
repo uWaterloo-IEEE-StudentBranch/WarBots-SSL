@@ -1,6 +1,8 @@
 CodingConvention
 ================
 
+WarBots coding conventions
+
 Namespacing
 -----------
 
