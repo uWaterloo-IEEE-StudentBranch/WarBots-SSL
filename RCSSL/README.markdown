@@ -16,5 +16,6 @@ Project Structure
     + Defensive
     + General
 + Robot
-+ FieldState
-+ GameState
++ Game
+    + FieldState
+    + GameState
