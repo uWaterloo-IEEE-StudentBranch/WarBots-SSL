@@ -21,6 +21,7 @@ This includes and not limited to:
 + API for sending and receiving between programs (e.g., coach and simulator)
 + wifi and radio communication, drivers
 + on-board communication API for integration specialists
++ connecting and configuring multicast groups
 
 Hardware Integration Specialist
 -------------------------------
