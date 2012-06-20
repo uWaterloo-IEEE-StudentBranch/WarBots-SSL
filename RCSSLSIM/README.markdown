@@ -32,6 +32,7 @@ Click to see the [duties and tasks](https://github.com/uWaterloo-IEEE-StudentBra
     + Salar Ali Mumtaz
     + Vincent Chau
     + Michael Chi
+    + Eugene Chung
 + Communication Specialist (sockets, network protocol, wifi, radio, protobuf)
     + Salar Ali Mumtaz
     + Vincent Chau
@@ -66,5 +67,6 @@ Click to see the [duties and tasks](https://github.com/uWaterloo-IEEE-StudentBra
     + Cong Wang
     + Anson Ho
     + Lawrence Fu
+    + Eugene Chung
 + General
     + Kyle - vision, communication, UI, AI, optimization, physics, gameplay
