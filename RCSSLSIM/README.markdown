@@ -33,6 +33,7 @@ Click to see the [duties and tasks](https://github.com/uWaterloo-IEEE-StudentBra
     + Vincent Chau
     + Michael Chi
 + Communication Specialist (sockets, network protocol, wifi, radio, protobuf)
+    + Salar Ali Mumtaz
     + Vincent Chau
     + Tony Wu
 + Hardware Integration Specialist (on-board code, drivetrain and sensor API)
