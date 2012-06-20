@@ -23,6 +23,8 @@ Main Features
     + display statistics of current strategy (more complex command packet)
     + can display statistics of a selected robot
     + display a shot at either goal whenever there exist a clear line of sight
++ Live Recorder
+    + display realtime statistic of robots on field (battery levels, capacitor charge, motor feedback, etc)
 + Replayer
     + has option to manually change frame
     + has option to replay backwards
@@ -32,4 +34,5 @@ Improvements
 + General
 + Simulator
     + more complex collsion model based on momentum
++ Live Recorder
 + Replayer
