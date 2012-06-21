@@ -16,11 +16,11 @@ If you're using gedit, you can find a snippet tar ball [here]().
 + file
 
   /*!
-   * \file     $GEDIT_CURRENT_DOCUMENT_NAME
-   * \author   [Your Name]
-   * \date     [Current Year]
-   * \brief
-  */
+   \* \file     $GEDIT_CURRENT_DOCUMENT_NAME
+   \* \author   [Your Name]
+   \* \date     [Current Year]
+   \* \brief
+  \*/
 
 + inline
 + post line
