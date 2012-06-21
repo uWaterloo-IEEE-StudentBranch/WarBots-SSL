@@ -23,7 +23,8 @@ Rules
             + {Module2}
             + ...
         + {design}
-            + Features.markdown
+            + design.markdown
+            + features.markdown
         + Makefile
         + README.markdown
             
@@ -32,3 +33,17 @@ Rules
 Developers
 ----------
 + [Cong Wang](https://github.com/thePerv) (RCSSL, RCSSLSIM, RCSIM2D, RCSIM3D)
++ [Tony Wu](https://github.com/y237wu) (RCSSL, RCSSLSIM)
++ [Anton Diaz]() (RCSSL, RCSSLSIM)
++ [Austin Lee](https://github.com/D4L)
++ [Tony Situ](https://github.com/tonygg) (RCSSL, RCSSLSIM)
++ [Salar Ali Mumtaz]() (RCSSL, RCSSLSIM)
++ [Vincent Chau](https://github.com/Solontus) (RCSSL, RCSSLSIM)
++ [Lawrence Fu](https://github.com/FuMaster) (RCSSL, RCSSLSIM)
++ [Michael Chi]() (RCSSL, RCSSLSIM)
++ [Eugene Chung]() (RCSSL, RCSSLSIM)
++ [Matthew Chan]() (RCSSL)
++ [Tony Li]() (RCSSL)
++ [Anson Ho]() (RCSSL)
++ [Nicole Jiang]() (RCSSLSIM)
++ [Kyle Olive](https://github.com/kolive) (RCSSL, RCSSLSIM)
