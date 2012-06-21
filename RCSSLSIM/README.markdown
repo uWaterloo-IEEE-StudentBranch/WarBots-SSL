@@ -43,6 +43,7 @@ Click to see the [duties and tasks](https://github.com/uWaterloo-IEEE-StudentBra
     + Tony Li
     + Michael Chi
     + Eugene Chung
+    + Matthew Chan
 + UI Specialist (QT, openGL)
     + Vincent Chau
     + Anton Diaz
