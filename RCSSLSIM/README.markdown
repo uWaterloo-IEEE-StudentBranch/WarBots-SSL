@@ -7,6 +7,7 @@ Project Design
 --------------
 + Basic [layout](https://github.com/uWaterloo-IEEE-StudentBranch/WarBots-CodeRepo/blob/master/RCSSLSIM/design/layout.png) of the UI
 + [Features](https://github.com/uWaterloo-IEEE-StudentBranch/WarBots-CodeRepo/blob/master/RCSSLSIM/design/Features.markdown) to be developed
++ Module [design notes](https://github.com/uWaterloo-IEEE-StudentBranch/WarBots-CodeRepo/blob/master/RCSSLSIM/design/design.markdown)
 
 Project Structure
 -----------------
@@ -17,7 +18,6 @@ Project Structure
 + Immovable
     + Field
     + Goal
-+ Math
 + Physics
 + World
 + UI
