@@ -36,7 +36,7 @@ Developers
 + [Cong Wang](https://github.com/thePerv) (RCSSL, RCSSLSIM, RCSIM2D, RCSIM3D)
 + [Tony Wu](https://github.com/y237wu) (RCSSL, RCSSLSIM)
 + [Anton Diaz](https://github.com/anava) (RCSSL, RCSSLSIM)
-+ [Austin Lee](https://github.com/D4L)
++ [Austin Lee](https://github.com/D4L) (RCSSL, RCSSLSIM)
 + [Tony Situ](https://github.com/tonygg) (RCSSL, RCSSLSIM)
 + [Salar Ali Mumtaz](https://github.com/Zozos) (RCSSL, RCSSLSIM)
 + [Vincent Chau](https://github.com/Solontus) (RCSSL, RCSSLSIM)
