@@ -26,6 +26,7 @@ basic unit definitions
 + speed : vector
 + acceleration : vector
 + force : vector
+
 useful math and physics functions
 + linear fitting
 + quadradtic fitting
