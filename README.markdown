@@ -16,19 +16,19 @@ Projects
 
 Rules
 -----
++ Please follow the [coding convention](https://github.com/uWaterloo-IEEE-StudentBranch/WarBots-CodeRepo/blob/master/CodingConvention.markdown) when you develop code.
 + Project Organization
     + {Project}
         + {src}
             + {Module1}
             + {Module2}
             + ...
+            + main.cpp
         + {design}
             + design.markdown
             + features.markdown
         + Makefile
         + README.markdown
-            
-+ Please follow the [coding convention](https://github.com/uWaterloo-IEEE-StudentBranch/WarBots-CodeRepo/blob/master/CodingConvention.markdown) when you develop code.
 
 Developers
 ----------
