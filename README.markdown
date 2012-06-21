@@ -18,6 +18,7 @@ Rules
 -----
 Please follow the [coding convention](https://github.com/uWaterloo-IEEE-StudentBranch/WarBots-CodeRepo/blob/master/CodingConvention.markdown) when you develop code.  
 Project Organization (\[\]: directories)
+
     [Project]
         [src]
             [Module1]
