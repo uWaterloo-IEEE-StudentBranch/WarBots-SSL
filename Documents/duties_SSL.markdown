@@ -9,13 +9,13 @@ References to the male gender in this document with respect to specialists are u
 
 Vision Specialist
 -----------------
-The vision specialist is responsible for all setup and calibration of the unique SSL vision system.
+The vision specialist is responsible for all setup and calibration of the unique SSL vision system.  
 This includes and not limited to:
 + the setup and coding of the dedicated vision computer to ensure the vision packets are broadcasted properly
 
 Communication Specialist
 ------------------------
-The communication special is responsible for setting up communication protocols and interfaces for information exchange.
+The communication special is responsible for setting up communication protocols and interfaces for information exchange.  
 This includes and not limited to:
 + retrieval of vision packets from the broadcast computer
 + API for sending and receiving between programs (e.g., coach and simulator)
@@ -25,7 +25,7 @@ This includes and not limited to:
 
 Hardware Integration Specialist
 -------------------------------
-The hardware integration specialist is responsible for all on-board control code with the exception of communication API.
+The hardware integration specialist is responsible for all on-board control code with the exception of communication API.  
 This includes and not limited to:
 + design of command class to be sent by off-field coach
 + robot API for generating such command class and packet
@@ -34,7 +34,7 @@ This includes and not limited to:
 
 UI Specialist
 -------------
-The UI specialist is responible for the visible component of RCSSLSIM.
+The UI specialist is responible for the visible component of RCSSLSIM.  
 This includes and not limited to:
 + design of an user interface
 + provide API for updating visible content
@@ -43,7 +43,7 @@ This includes and not limited to:
 
 AI Specialist
 -------------
-The AI specialist is responible for the gameplay of WarBots SSL and the coding of the off-field coach.
+The AI specialist is responible for the gameplay of WarBots SSL and the coding of the off-field coach.  
 This includes and not limited to:
 + develop a multi-agent decision models
 + analysis of raw vision input
@@ -51,7 +51,7 @@ This includes and not limited to:
 
 Optimization Specialist
 -----------------------
-The optimization specialist is responsible for modifications to the off-field coach to achieve better time/space complexity.
+The optimization specialist is responsible for modifications to the off-field coach to achieve better time/space complexity.  
 This includes and not limited to:
 + using C and assembly to speed up computation
 + adapt more efficient algorthm or implementation of an algorithm based on constrained inputs
@@ -61,20 +61,20 @@ This includes and not limited to:
 
 Physics Specialist
 ------------------
-The physics specialist is responible for a physics model that is accurate and efficient enough for real time analysis.
+The physics specialist is responible for a physics model that is accurate and efficient enough for real time analysis.  
 This includes and not limited to:
 + efficient simulation model for friction and airdrag
 + path prediction based on a series of data
 
 Gameplay Specialist
 -------------------
-The gameplay specialist is responsible for development of new strategies used in the decision model of the AI specialist
+The gameplay specialist is responsible for development of new strategies used in the decision model of the AI specialist.  
 This includes and not limited to:
 + analysis of current RoboCup SSL metagame and playstyle
 + determine feasibility of implementing certain strategies from the real soccer gameplay
 
 General
 -------
-The general developer will help specialists of their chosen aspects on demand, with less time commitment.
+The general developer will help specialists of their chosen aspects on demand, with less time commitment.  
 This includes and not limited to:
 + Kyle Olive
