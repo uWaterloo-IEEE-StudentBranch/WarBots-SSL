@@ -40,6 +40,7 @@ Click to see the [duties and tasks](https://github.com/uWaterloo-IEEE-StudentBra
     + Salar Ali Mumtaz
     + Vincent Chau
     + Tony Wu
+    + Austin Lee
 + Hardware Integration Specialist (on-board code, drivetrain and sensor API)
     + Cong Wang
     + Tony Wu
@@ -53,16 +54,19 @@ Click to see the [duties and tasks](https://github.com/uWaterloo-IEEE-StudentBra
     + Lawrence Fu
     + Nicole Jiang
     + Salar Ali Mumtaz
+    + Austin Lee
 + AI Specialist (multi-agent system, may be broken down to defensive and offensive)
     + Cong Wang
     + Michael Chi
     + Tony Wu
     + Tony Situ
+    + Austin Lee
 + Optimization Specialist (C, assembly, algorithms)
     + Cong Wang
     + Anton Diaz
     + Tony Wu
     + Tony Situ
+    + Austin Lee
 + Physics Specialist (newtonian physics)
     + Cong Wang
 + Gameplay Specialist (soccer gameplay, SSL metagame, strategy design)
