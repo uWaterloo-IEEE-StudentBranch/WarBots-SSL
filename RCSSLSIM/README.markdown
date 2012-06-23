@@ -11,19 +11,21 @@ Project Design
 
 Project Structure
 -----------------
-+ Communication
-+ Movable
-    + Ball
-    + Robot
-+ Immovable
-    + Field
-    + Goal
-+ Physics
-+ World
-+ UI
-+ Log
-    + Replay
-    + SimLog
+
+    Communication
+    Proto
+    Movable
+        Ball
+        Robot
+    Immovable
+        Field
+        Goal
+    Physics
+    World
+    UI
+    Log
+    Replay
+    SimLog
 
 Developers
 ----------
