@@ -12,20 +12,21 @@ Project Design
 Project Structure
 -----------------
 
-    Communication
-    Proto
-    Movable
-        Ball
-        Robot
-    Immovable
-        Field
-        Goal
-    Physics
-    World
-    UI
-    Log
-    Replay
-    SimLog
+    WarBots::RCSSLSIM
+        Communication
+        Proto
+        Movable
+            Ball
+            Robot
+        Immovable
+            Field
+            Goal
+        Physics
+        World
+        UI
+        Log
+        Replay
+        SimLog
 
 Developers
 ----------
