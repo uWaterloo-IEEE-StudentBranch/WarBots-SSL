@@ -26,6 +26,7 @@ Game
 	+ updateInfo(CommandPack)
 		
 Immovable
+---------
 + holds class that represent immovable objects
 	+ Field
 	+ Goal
