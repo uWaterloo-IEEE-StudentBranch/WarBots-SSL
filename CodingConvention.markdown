@@ -10,9 +10,10 @@ WarBots::{project}::{module}
 
 Documentation
 -------------
-We will document using [doxygen](http://www.doxygen.org), a list of tags can be found [here](http://www.stack.nl/~dimitri/doxygen/commands.html).  
+We will document using [doxygen](http://www.doxygen.org), a list of tags can be found [here](http://www.stack.nl/~dimitri/doxygen/commands.html).
+
 Our templates (for setting up your own text editors, is as follows):
-If you're using gedit, you can find a snippet tar ball [here]().
+If you're using gedit, you can find a snippet tar ball [here](https://github.com/uWaterloo-IEEE-StudentBranch/WarBots-CodeRepo/blob/master/Documents/SnippetCplusplus.tar.gz).
 #### File
     /*!
      * \file     [File Name]
