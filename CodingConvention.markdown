@@ -65,9 +65,26 @@ For example:
          */    
         virtual ~ClassName();
     
+        /*! 
+         *  \fn         member
+         *  \brief      getter function for member
+         *  \details
+         *  \param      none
+         *  \return     int
+         *  \bug        none
+         *  \warning    none
+         */
+        int member() const;
+    
       private:
-        
-    };
+      
+        int member_;     /*!< private member */
+    };    
+and in .cc:
+
+    int ClassName::member() const{
+        return member_;
+    }
 #### Functions
     /*! 
      *  \fn         FunctionName
