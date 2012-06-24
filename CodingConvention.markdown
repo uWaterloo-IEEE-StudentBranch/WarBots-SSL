@@ -14,6 +14,9 @@ We will document using [doxygen](http://www.doxygen.org), a list of tags can be 
 
 Our templates (for setting up your own text editors, is as follows):
 If you're using gedit, you can find a snippet tar ball [here](https://github.com/uWaterloo-IEEE-StudentBranch/WarBots-CodeRepo/blob/master/Documents/SnippetCplusplus.tar.gz).
+
+The doxygen style comments are written in the header (.h) files. Regular comments in the implementation are also encouraged.
+
 #### File
     /*!
      * \file     [File Name]
@@ -21,7 +24,8 @@ If you're using gedit, you can find a snippet tar ball [here](https://github.com
      * \date     [Current Year]
      * \brief    [Brief Description of the File]
      */
-For example:  
+For example:
+
     /*!
      * \file     CodingConvention.markdown
      * \author   Cong Wang
@@ -30,15 +34,64 @@ For example:
     */
 #### Inline comments
     /*! [This describes the variable on the line after] */
-For example:  
+For example:
+
     /*! The ID of the Robot */
     int id;
 #### Post-line comments
     /*!< [This describes the variable on the same line] */
-For example:  
+For example:
+
     int id;     /*!< The ID of the Robot */
-#### Namespace
 #### Classes
+    /*!
+     *    \class    ClassName
+     *    \brief    Demo class
+     */
+    class ClassName{
+      public:
+      
+        /*!
+         *    \brief        default constructor
+         *    \param        none
+         *    \details      nothing special
+         */
+        ClassName();
+            
+        /*!
+         *    \brief        default destructor
+         *    \param        none
+         *    \details      nothing special
+         */    
+        virtual ~ClassName();
+    
+      private:
+        
+    };
 #### Functions
+    /*! 
+     *  \fn         FunctionName
+     *  \brief      Demo function
+     *  \details    Nothing really special about it
+     *  \param      none
+     *  \return     void
+     *  \bug        none
+     *  \warning    none
+     */
+    void FunctionName();
 #### Structs
+    /*!
+     *    \struct    StructName
+     *    \brief     Demo structure
+     */
+    struct StructName{
+        /* data */
+    };
 #### Enums
+    /*!
+     *    \enum    EnumName
+     *    \brief   Demo enum
+     */
+    enum EnumName{
+        /* data */
+    };
