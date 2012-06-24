@@ -16,19 +16,35 @@ Projects
 
 Rules
 -----
-+ Project Organization
-    + {Project}
-        + {src}
-            + {Module1}
-            + {Module2}
-            + ...
-        + {design}
-            + Features.markdown
-        + Makefile
-        + README.markdown
-            
-+ Please follow the [coding convention](https://github.com/uWaterloo-IEEE-StudentBranch/WarBots-CodeRepo/blob/master/CodingConvention.markdown) when you develop code.
+Please follow the [coding convention](https://github.com/uWaterloo-IEEE-StudentBranch/WarBots-CodeRepo/blob/master/CodingConvention.markdown) when you develop code.  
+Project Organization (\[\]: directories)
+
+    [Project]
+        [src]
+            [Module1]
+            [Module2]
+            ...
+            main.cpp
+        [design]
+            design.markdown
+            features.markdown
+        Makefile
+        README.markdown
 
 Developers
 ----------
 + [Cong Wang](https://github.com/thePerv) (RCSSL, RCSSLSIM, RCSIM2D, RCSIM3D)
++ [Tony Wu](https://github.com/y237wu) (RCSSL, RCSSLSIM)
++ [Anton Diaz](https://github.com/anava) (RCSSL, RCSSLSIM)
++ [Austin Lee](https://github.com/D4L) (RCSSL, RCSSLSIM)
++ [Tony Situ](https://github.com/tonygg) (RCSSL, RCSSLSIM)
++ [Salar Ali Mumtaz](https://github.com/Zozos) (RCSSL, RCSSLSIM)
++ [Vincent Chau](https://github.com/Solontus) (RCSSL, RCSSLSIM)
++ [Lawrence Fu](https://github.com/FuMaster) (RCSSL, RCSSLSIM)
++ Michael Chi (RCSSL, RCSSLSIM)
++ Eugene Chung (RCSSL, RCSSLSIM)
++ Matthew Chan (RCSSL)
++ Tony Li (RCSSL)
++ Anson Ho (RCSSL)
++ Nicole Jiang (RCSSLSIM)
++ [Kyle Olive](https://github.com/kolive) (RCSSL, RCSSLSIM)
