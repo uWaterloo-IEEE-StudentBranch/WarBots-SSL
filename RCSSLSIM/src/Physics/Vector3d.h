@@ -8,10 +8,6 @@
 class Vector3D{
   public:
     
-    double x_;       /*!< The x value of the vector */
-    double y;       /*!< The y value of the vector */
-    double z;       /*!< The z value of the vector */
-    
     /*!
      *    \brief        default constructor
      *    \param        none
@@ -36,6 +32,39 @@ class Vector3D{
     virtual ~Vector3D();
     
     /*! 
+     *  \fn         x
+     *  \brief      getter function for x_
+     *  \details
+     *  \param      none
+     *  \return     double
+     *  \bug        none
+     *  \warning    none
+     */
+    double x() const;
+    
+    /*! 
+     *  \fn         y
+     *  \brief      getter function for y_
+     *  \details        
+     *  \param      none
+     *  \return     double
+     *  \bug        none
+     *  \warning    none
+     */
+    double y() const;
+    
+    /*! 
+     *  \fn         z
+     *  \brief      getter function for z_ 
+     *  \details
+     *  \param      none
+     *  \return     double
+     *  \bug        none
+     *  \warning    none
+     */
+    double z() const;
+    
+    /*! 
      *  \fn         magnitude
      *  \brief      returns the magitude of the vector
      *  \details
@@ -48,7 +77,7 @@ class Vector3D{
     
     /*! 
      *  \fn         unitVector
-     *  \brief      
+     *  \brief      returns a Vector3D that is the normalized version of this vector
      *  \details
      *  \param      none
      *  \return     Vector3D
@@ -57,9 +86,55 @@ class Vector3D{
      */
     Vector3D unitVector();
     
+    /*! 
+     *  \fn         operator+
+     *  \brief      overloaded addition operator
+     *  \details
+     *  \param      the Vector3D to be added
+     *  \return     const Vector3D
+     *  \bug        none
+     *  \warning    none
+     */
+    const Vector3D operator+(const Vector3D &rhs) const;
+    
+    /*! 
+     *  \fn         operator-
+     *  \brief      overloaded subtraction operator
+     *  \details
+     *  \param      the Vector3D to be subtracted
+     *  \return     const Vector3D
+     *  \bug        none
+     *  \warning    none
+     */
+    const Vector3D operator-(const Vector3D &rhs) const;
+    
+    /*! 
+     *  \fn         dot
+     *  \brief      returns the dot product of the two vectors
+     *  \details
+     *  \param      the second vector to perform the dot product with
+     *  \return     double
+     *  \bug        none
+     *  \warning    none
+     */
+    double dot(const Vector3D &rhs);
+    
+    /*! 
+     *  \fn         cross
+     *  \brief      returns the cross product of the two vectors
+     *  \details
+     *  \param      the second vector to perform the cross product with
+     *  \return     Vector3D
+     *  \bug        none
+     *  \warning    none
+     */
+    Vector3D cross(const Vector3D &rhs);
 
   private:
-    
+  
+    double x_;       /*!< The x value of the vector */
+    double y_;       /*!< The y value of the vector */
+    double z_;       /*!< The z value of the vector */
 };
 
 #endif /* __VECTOR3D_H__ */

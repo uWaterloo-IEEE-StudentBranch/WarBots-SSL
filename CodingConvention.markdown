@@ -67,7 +67,7 @@ For example:
     
         /*! 
          *  \fn         member
-         *  \brief      getter function for member
+         *  \brief      getter function for member_
          *  \details
          *  \param      none
          *  \return     int
