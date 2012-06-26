@@ -17,9 +17,9 @@ class Vector3D{
     
     /*!
      *    \brief        initializing constructor
-     *    \param        The x value
-     *    \param        The y value
-     *    \param        The z value
+     *    \param        x The x value
+     *    \param        y The y value
+     *    \param        z The z value
      *    \details      initializes the vector with the values [x, y, z]
      */
     Vector3D(double x, double y, double z);
@@ -36,7 +36,7 @@ class Vector3D{
      *  \brief      getter function for x_
      *  \details
      *  \param      none
-     *  \return     double
+     *  \return     double the value of x_
      *  \bug        none
      *  \warning    none
      */
@@ -47,7 +47,7 @@ class Vector3D{
      *  \brief      getter function for y_
      *  \details        
      *  \param      none
-     *  \return     double
+     *  \return     double the value of y_
      *  \bug        none
      *  \warning    none
      */
@@ -58,7 +58,7 @@ class Vector3D{
      *  \brief      getter function for z_ 
      *  \details
      *  \param      none
-     *  \return     double
+     *  \return     double the value of z_
      *  \bug        none
      *  \warning    none
      */
@@ -69,7 +69,7 @@ class Vector3D{
      *  \brief      returns the magitude of the vector
      *  \details
      *  \param      none
-     *  \return     double
+     *  \return     double the magitude of the vector
      *  \bug        none
      *  \warning    none
      */
@@ -80,7 +80,7 @@ class Vector3D{
      *  \brief      returns a Vector3D that is the normalized version of this vector
      *  \details
      *  \param      none
-     *  \return     Vector3D
+     *  \return     Vector3D an unit vector in the same direction
      *  \bug        none
      *  \warning    none
      */
@@ -90,7 +90,7 @@ class Vector3D{
      *  \fn         operator+
      *  \brief      overloaded addition operator
      *  \details
-     *  \param      the Vector3D to be added
+     *  \param      rhs the Vector3D to be added
      *  \return     const Vector3D
      *  \bug        none
      *  \warning    none
@@ -101,7 +101,7 @@ class Vector3D{
      *  \fn         operator-
      *  \brief      overloaded subtraction operator
      *  \details
-     *  \param      the Vector3D to be subtracted
+     *  \param      rhs the Vector3D to be subtracted
      *  \return     const Vector3D
      *  \bug        none
      *  \warning    none
@@ -112,8 +112,8 @@ class Vector3D{
      *  \fn         dot
      *  \brief      returns the dot product of the two vectors
      *  \details
-     *  \param      the second vector to perform the dot product with
-     *  \return     double
+     *  \param      rhs the second vector to perform the dot product with
+     *  \return     double the dot product of the two vectors
      *  \bug        none
      *  \warning    none
      */
@@ -124,7 +124,7 @@ class Vector3D{
      *  \brief      returns the cross product of the two vectors
      *  \details
      *  \param      the second vector to perform the cross product with
-     *  \return     Vector3D
+     *  \return     Vector3D the cross product of the two vectors
      *  \bug        none
      *  \warning    none
      */
