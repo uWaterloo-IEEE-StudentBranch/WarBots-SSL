@@ -5,21 +5,22 @@ RoboCup Small-Size League
 
 Project Structure
 -----------------
-    
-    Command
-    Communication
-    Proto
-    Physics
-    World
-    Coach
-    Strategy
-        Offensive
-        Defensive
-        General
-    Movable
-        Robot
-    Role
-    Game
-        FieldState
-        GameMode
-        GameState
+
+    WarBots::RCSSL
+        Command
+        Communication
+        Proto
+        Physics
+        World
+        Coach
+        Strategy
+            Offensive
+            Defensive
+            General
+        Movable
+            Robot
+        Role
+        Game
+            FieldState
+            GameMode
+            GameState
