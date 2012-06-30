@@ -6,6 +6,11 @@
  *    \brief    a representation of the physical vector in 3 dimensions
  */
 class Vector3D{
+  private:
+    double x_;       /*!< The x value of the vector */
+    double y_;       /*!< The y value of the vector */
+    double z_;       /*!< The z value of the vector */
+    
   public:
     
     /*!
@@ -36,7 +41,7 @@ class Vector3D{
      *  \brief      getter function for x_
      *  \details
      *  \param      none
-     *  \return     double the value of x_
+     *  \return     double, the value of x_
      *  \bug        none
      *  \warning    none
      */
@@ -47,7 +52,7 @@ class Vector3D{
      *  \brief      getter function for y_
      *  \details        
      *  \param      none
-     *  \return     double the value of y_
+     *  \return     double, the value of y_
      *  \bug        none
      *  \warning    none
      */
@@ -58,7 +63,7 @@ class Vector3D{
      *  \brief      getter function for z_ 
      *  \details
      *  \param      none
-     *  \return     double the value of z_
+     *  \return     double, the value of z_
      *  \bug        none
      *  \warning    none
      */
@@ -69,7 +74,7 @@ class Vector3D{
      *  \brief      returns the magitude of the vector
      *  \details
      *  \param      none
-     *  \return     double the magitude of the vector
+     *  \return     double, the magitude of the vector
      *  \bug        none
      *  \warning    none
      */
@@ -80,7 +85,7 @@ class Vector3D{
      *  \brief      returns a Vector3D that is the normalized version of this vector
      *  \details
      *  \param      none
-     *  \return     Vector3D an unit vector in the same direction
+     *  \return     Vector3D, an unit vector in the same direction
      *  \bug        none
      *  \warning    none
      */
@@ -113,7 +118,7 @@ class Vector3D{
      *  \brief      returns the dot product of the two vectors
      *  \details
      *  \param      rhs the second vector to perform the dot product with
-     *  \return     double the dot product of the two vectors
+     *  \return     double, the dot product of the two vectors
      *  \bug        none
      *  \warning    none
      */
@@ -124,17 +129,11 @@ class Vector3D{
      *  \brief      returns the cross product of the two vectors
      *  \details
      *  \param      the second vector to perform the cross product with
-     *  \return     Vector3D the cross product of the two vectors
+     *  \return     Vector3D, the cross product of the two vectors
      *  \bug        none
      *  \warning    none
      */
     Vector3D cross(const Vector3D &rhs);
-
-  private:
-  
-    double x_;       /*!< The x value of the vector */
-    double y_;       /*!< The y value of the vector */
-    double z_;       /*!< The z value of the vector */
 };
 
 #endif /* __VECTOR3D_H__ */
