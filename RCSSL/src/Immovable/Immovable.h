@@ -1,15 +1,18 @@
-#ifndef __ROLE_H__
-#define __ROLE_H__
+#ifndef __IMMOVABLE_H__
+#define __IMMOVABLE_H__
 
-namespace Role{
+#include "../Physics/Vector3D.h"
+#include "../Objects/Objects.h"
+
+namespace Immovable{
     
     /*!
-     *    \class    Role
-     *    \brief    the various roles a robot can take in a strategy
+     *    \class    Immovable
+     *    \brief    generic class for objects that are fixed
      */
-    class Role{
+    class Immovable: public Object::Object{
       private:
-        
+
         
       public:
       
@@ -18,17 +21,17 @@ namespace Role{
          *    \param        none
          *    \details      nothing special
          */
-        Role();
+        Immovable();
             
         /*!
          *    \brief        default destructor
          *    \param        none
          *    \details      nothing special
          */    
-        virtual ~Role();
+        virtual ~Immovable();
     };
 
 };
 
-#endif /* __ROLE_H__ */
+#endif /* __IMMOVABLE_H__ */
 
