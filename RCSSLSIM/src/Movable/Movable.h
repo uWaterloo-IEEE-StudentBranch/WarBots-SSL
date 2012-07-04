@@ -2,7 +2,7 @@
 #define __MOVABLE_H__
 
 #include "../Physics/Vector3D.h"
-#include "../Objects/Objects.h"
+#include "../Objects/Object.h"
 
 namespace Movable{
     
@@ -10,7 +10,7 @@ namespace Movable{
      *    \class    Movable
      *    \brief    generic class for objects that can move
      */
-    class Movable: public Object::Object{
+    class Movable{
       private:
         Physics::Vector3D position_;         /*!< a vector describing the position of the robot on the field */
         Physics::Vector3D velocity_;         /*!< a vector describing the velocity of the robot */

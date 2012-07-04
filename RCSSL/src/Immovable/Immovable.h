@@ -2,7 +2,7 @@
 #define __IMMOVABLE_H__
 
 #include "../Physics/Vector3D.h"
-#include "../Objects/Objects.h"
+#include "../Objects/Object.h"
 
 namespace Immovable{
     
@@ -12,7 +12,7 @@ namespace Immovable{
      */
     class Immovable: public Object::Object{
       private:
-
+        
         
       public:
       

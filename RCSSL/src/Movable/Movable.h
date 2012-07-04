@@ -2,7 +2,7 @@
 #define __MOVABLE_H__
 
 #include "../Physics/Vector3D.h"
-#include "../Objects/Objects.h"
+#include "../Objects/Object.h"
 
 namespace Movable{
     
