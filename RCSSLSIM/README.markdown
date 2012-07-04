@@ -15,6 +15,10 @@ Project Structure
     WarBots::RCSSLSIM
         Communication
         Proto
+        Game
+            FieldState
+            GameMode
+            GameState
         Object
             Object
         Movable
