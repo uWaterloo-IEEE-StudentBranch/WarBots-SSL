@@ -10,7 +10,7 @@ namespace Immovable{
      *    \class    Immovable
      *    \brief    generic class for objects that are fixed
      */
-    class Immovable{
+    class Immovable: public Object::Object{
       private:
         
         

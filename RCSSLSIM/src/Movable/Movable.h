@@ -10,7 +10,7 @@ namespace Movable{
      *    \class    Movable
      *    \brief    generic class for objects that can move
      */
-    class Movable{
+    class Movable: public Object::Object{
       private:
         Physics::Vector3D position_;         /*!< a vector describing the position of the robot on the field */
         Physics::Vector3D velocity_;         /*!< a vector describing the velocity of the robot */

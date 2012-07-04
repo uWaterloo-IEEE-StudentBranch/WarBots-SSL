@@ -37,6 +37,40 @@ namespace World{
          *    \details      nothing special
          */    
         virtual ~World();
+
+        /*! 
+         *  \fn         addMovableObject
+         *  \brief      add a movable object to the world
+         *  \details
+         *  \param      obj, the movable object to be added
+         *  \return     void
+         *  \bug        none
+         *  \warning    none
+         */
+        void addMovableObject(Movable::Movable obj);
+
+        /*! 
+         *  \fn         addImmovableObject
+         *  \brief      add a immovable object to the world
+         *  \details
+         *  \param      obj, the immovable object to be added
+         *  \return     void
+         *  \bug        none
+         *  \warning    none
+         */
+        void addImmovableObject(Immovable::Immovable obj);
+
+        /*! 
+         *  \fn         simulate
+         *  \brief      simulate the world by a time specified by timestep
+         *  \details
+         *  \param      none
+         *  \return     void
+         *  \bug        none
+         *  \warning    none
+         */
+        void simulate();
+        
     };
     
 };
