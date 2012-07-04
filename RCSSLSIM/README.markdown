@@ -15,14 +15,19 @@ Project Structure
     WarBots::RCSSLSIM
         Communication
         Proto
+        Object
+            Object
         Movable
+            Movable
             Ball
             Robot
         Immovable
-            Field
+            Immovable
             Goal
         Physics
+            Vector3D
         World
+            World
         UI
         Log
         Replay
