@@ -1,0 +1,7 @@
+import "vector3D.proto";
+
+message Robot {
+	optional Vector3D position = 1;
+	optional Vector3D velocity = 2;
+	optional string role = 3;
+}
