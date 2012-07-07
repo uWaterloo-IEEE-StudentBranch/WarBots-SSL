@@ -1,0 +1,7 @@
+import "robot.proto";
+import "ball.proto";
+
+message FieldStateMessage {
+	repeated Robot robot = 1;
+	repeated Ball ball = 2;
+}

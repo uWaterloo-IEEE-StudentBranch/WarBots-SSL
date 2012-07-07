@@ -1,0 +1,8 @@
+import "vector3D.proto";
+
+message Ball {
+
+	optional Vector3D position = 1;
+	optional Vector3D velocity = 2;
+
+}
