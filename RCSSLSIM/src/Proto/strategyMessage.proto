@@ -1,0 +1,4 @@
+message StrategyMessage{
+
+	optional string name = 1;
+}
