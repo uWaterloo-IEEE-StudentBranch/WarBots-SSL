@@ -1,0 +1,10 @@
+import "fieldStateMessage.proto";
+import "strategyMessage.proto";
+
+message GameStateMessage{
+
+	optional FieldStateMessage fieldState = 1;
+	optional string GameMode = 2;
+	optional StrategyMessage strategy = 3;
+}
+
