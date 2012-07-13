@@ -1,14 +1,14 @@
-#include "team.h"
-#include "circles.h"
 #include <QtGui/QApplication>
+#include <QtGui>
 #include <QGraphicsScene>
 #include <QGraphicsView>
 #include <QGraphicsPixmapItem>
 #include <qpixmap.h>
 #include <qmainwindow.h>
-#include "MyGraphicsView.h"
 #include <qgraphicsitem.h>
-#include <QtGui>
+#include "team.h"
+#include "circles.h"
+#include "MyGraphicsView.h"
 
 static const int CircleCount = 7;
 
@@ -30,8 +30,6 @@ int main(int argc, char *argv[])
 	 v.setCacheMode(QGraphicsView::CacheBackground);
 	 v.setViewportUpdateMode(QGraphicsView::BoundingRectViewportUpdate);
 	 v.setDragMode(QGraphicsView::ScrollHandDrag);
-	 v.setWindowTitle(QT_TRANSLATE_NOOP(QGraphicsView, "Colliding Mice"));
-
 
 	v.setScene(&scene);
 	v.show();
