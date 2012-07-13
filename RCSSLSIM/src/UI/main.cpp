@@ -1,4 +1,3 @@
-#include "qtest2.h"
 #include "team.h"
 #include "circles.h"
 #include <QtGui/QApplication>
