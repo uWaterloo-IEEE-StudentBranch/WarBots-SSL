@@ -26,6 +26,10 @@ Team::Team(int n, QColor c): color(c){
 	}
 }
 
+void Team::setPos(int id, int x, int y){
+    team[i]->setPos(x, y);
+}
+
 Team::~Team(){
 	for(int i = 0; i < nMembers; i++){
 		delete team[i];
