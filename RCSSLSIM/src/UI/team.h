@@ -5,6 +5,9 @@
 #include <qvector.h>
 #include <qgraphicsscene.h>
 
+#include "../Proto/fieldStateMessage.pb.h"
+#include "../Proto/messages_robocup_ssl_detection.pb.h"
+
 /*!
  *    \class    Team
  *    \brief    class representing a team of robots (UI)
@@ -40,6 +43,28 @@ public:
 	 *    \warning    none
 	 */
 	void setPos(int id, int x, int y);
+	
+	/*! 
+	 *    \fn             setPos
+	 *    \brief          sets the positions of robots based on a FieldStateMessage
+	 *    \details        
+	 *    \param          fsm, the FieldStateMessage used to update scene
+	 *    \return         void
+	 *    \bug            none
+	 *    \warning        none
+	 */
+	void setPos(FieldStateMessage *fsm);
+	
+	/*! 
+	 *    \fn             setPos
+	 *    \brief          sets the positions of robots based on a SSL_DetectionFrame
+	 *    \details        
+	 *    \param          df, the SSL_DetectionFrame used to update the scene
+	 *    \return         void
+	 *    \bug            none
+	 *    \warning        none
+	 */
+	void setPos(SSL_DetectionFrame *df);	
 	
     /*!
      *    \brief        constructor with offset
