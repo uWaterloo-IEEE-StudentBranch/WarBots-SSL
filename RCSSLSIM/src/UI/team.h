@@ -16,6 +16,16 @@ private:
 	QVector<Circle*> team;          /*!< the list of robot pointers (represented by circles) */
 	QColor color;                   /*!< the team colour */
 public:
+
+    /*! 
+     *    \fn             addtoScene
+     *    \brief          adds a scene to the stage
+     *    \details        
+     *    \param          s, the QGraphicsScene to be added
+     *    \return         void
+     *    \bug            none
+     *    \warning        none
+     */
 	void addToScene(QGraphicsScene &s);
 	
 	/*! 
