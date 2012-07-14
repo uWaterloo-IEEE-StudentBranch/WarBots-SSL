@@ -18,6 +18,7 @@ private:
 	int offset;                     /*!< the offset used to initialize robot position */
 	QVector<Circle*> team;          /*!< the list of robot pointers (represented by circles) */
 	QColor color;                   /*!< the team colour */
+	
 public:
 
     /*! 
@@ -53,7 +54,7 @@ public:
 	 *    \bug            none
 	 *    \warning        none
 	 */
-	void setPos(FieldStateMessage *fsm);
+	void setPos(FieldStateMessage &fsm);
 	
 	/*! 
 	 *    \fn             setPos
@@ -64,7 +65,7 @@ public:
 	 *    \bug            none
 	 *    \warning        none
 	 */
-	void setPos(SSL_DetectionFrame *df);	
+	void setPos(SSL_DetectionFrame &df);
 	
     /*!
      *    \brief        constructor with offset

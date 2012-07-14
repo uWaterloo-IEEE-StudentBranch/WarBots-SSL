@@ -10,3 +10,8 @@ INCLUDEPATH += .
 # Input
 HEADERS += circles.h MyGraphicsView.h team.h
 SOURCES += circles.cpp main.cpp MyGraphicsView.cpp team.cpp
+
+LIBS += -L$$PWD/libs/ \
+        -L/home/theperv/WarBots-CodeRepo/RCSSLSIM/libs/ \
+    -lprotobuf-2.4.0 \
+    -lBox2D

@@ -41,10 +41,10 @@ int main(int argc, char** argv)
 	b2PolygonShape groundBox[4];
 
 	// The extents are the half-widths of the box.
-	groundBox[0].SetAsBox(3.7f, 0.3f);
-	groundBox[1].SetAsBox(3.7f, 0.3f);
-	groundBox[2].SetAsBox(0.3f, 2.7f);
-	groundBox[3].SetAsBox(0.3f, 2.7f);
+	groundBox[0].SetAsBox(3.7f, 0.003f);
+	groundBox[1].SetAsBox(3.7f, 0.003f);
+	groundBox[2].SetAsBox(0.003f, 2.7f);
+	groundBox[3].SetAsBox(0.003f, 2.7f);
 
 	// Add the ground fixture to the ground body.
 	for(unsigned int i = 0; i < 4; i += 1){
