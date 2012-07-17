@@ -20,26 +20,34 @@ static const int CircleCount = 7;
 
 int main(int argc, char *argv[])
 {
-    QApplication a(argc, argv);
-    QGraphicsScene scene;
-    QRect sceneRect(0,0,740,540);
-    scene.setSceneRect(sceneRect);
-    scene.setItemIndexMethod(QGraphicsScene::NoIndex);
-
-    Team A(5,QColor(0,0,255));
-    Team B(5,QColor(255,255,0),50);
-    A.addToScene(scene);
-    B.addToScene(scene);
-
-    MyGraphicsView v;
-    v.setRenderHint(QPainter::Antialiasing);
-    v.setCacheMode(QGraphicsView::CacheBackground);
-    v.setViewportUpdateMode(QGraphicsView::BoundingRectViewportUpdate);
-    v.setDragMode(QGraphicsView::ScrollHandDrag);
-
-	v.setScene(&scene);
-	v.show();
 	
+	QApplication a(argc, argv);
+	
+	// Set up the scene
+	QGraphicsScene scene;
+	QRect sceneRect(0,0,740,540);
+	scene.setSceneRect(sceneRect);
+	scene.setItemIndexMethod(QGraphicsScene::NoIndex);
+
+	Team A(5,QColor(0,0,255));
+	Team B(5,QColor(255,255,0),50);
+	A.addToScene(scene);
+	B.addToScene(scene);
+	
+	// Set up the view port
+	MyGraphicsView v;
+	v.setRenderHint(QPainter::Antialiasing);
+	v.setCacheMode(QGraphicsView::CacheBackground);
+	v.setViewportUpdateMode(QGraphicsView::BoundingRectViewportUpdate);
+	v.setDragMode(QGraphicsView::ScrollHandDrag);
+    	v.setScene(&scene);
+   	v.show();
+   	
+   	// Call circle advance for every time interval of 1000/33
+	QTimer timer;
+     	QObject::connect(&timer, SIGNAL(timeout()), &scene, SLOT(advance()));
+     	timer.start(1000 / 33);
+
 	a.exec();
 	
 #ifndef __NO_BOX2D__
